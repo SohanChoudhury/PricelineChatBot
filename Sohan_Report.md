@@ -160,7 +160,7 @@ In any prediction problem, there are several approaches that can be taken to bui
 
 In regards to such a chatbot, the goal will be to identify the nature of responses that best improve effectiveness. At the crux of this, however, lies the problem of finding an adequate metric for judging effectiveness. I brainstormed a few, shown below.
 
-* __Duration of conversation.__ It would be easy to measure how long a conversation lasted, and flag longer interactions as a sign of success. However, this simply is not an accurate metric for effective communication simply by the nature of conversation.
+* __Duration of conversation.__ It would be easy to measure how long a conversation lasted, and flag longer interactions as a sign of success. However, this simply is not an accurate metric for effective communication due to the very nature of conversation.
 
 * __Explicit customer feedback.__ At the end of interaction with the chatbot, the user could be asked to rate the quality of their conversation. Unfortunately, this approach is highly susceptible to response bias and is quite subjective.
 
