@@ -30,7 +30,7 @@ In order for the chatbot to function properly, the most obvious input stream we 
 
 Prior to word vectorization, however, we must design some sort of processing in order to extract the data from the user's messages, as well as to ensure that only relevant words are considered.
 
-To this end, `nltk`, a popular Natural Language Toolkit for `Python`, can be used. We can use this handily remove common **_stopwords_** such as *the*, *and*, *so*, etc. Below is a simple function outlining how we can strip these words from our data.
+To this end, `nltk`, a popular Natural Language Toolkit for `Python`, can be used. We can use this to handily remove common **_stopwords_** such as *the*, *and*, *so*, etc. Below is a simple function outlining how we can strip these words from our data.
 
 ```python
 from nltk.corpus import stopwords
