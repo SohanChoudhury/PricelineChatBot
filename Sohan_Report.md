@@ -226,7 +226,7 @@ labmt_dict = lambt.happiness_average.to_dict()
 
 ```
 
-Now, we can take the ordered list of `words` taken from the user input, and combine the outline of both the `clean()` and `cost_score()` functions above to create `sentiment()` that gives us an average sentiment score for each conversation with the chatbot.
+Now, we can take the ordered list of `words` from the user input, and combine the outline of both the `clean()` and `cost_score()` functions above to create `sentiment()` that gives an average sentiment score for each conversation with the chatbot.
 
 ```python
 from nltk.corpus import stopwords
