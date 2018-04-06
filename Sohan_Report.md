@@ -85,8 +85,8 @@ From my understanding, the NLP engine has already been applied to the Priceline 
     <tbody>
       <tr>
         <td>"sister-in-law"</td>
-        <td>`JFK`</td>
-        <td>`2018-04-06`</td>
+        <td>"JFK"</td>
+        <td>"2018-04-06"</td>
       </tr>
 
     </tbody>
@@ -173,44 +173,44 @@ For this, we can use [LabMT](http://journals.plos.org/plosone/article/file?id=in
 <table>
   <thead>
     <tr>
-      <th>`word`</th>
-      <th>`happiness_rank`</th>
-      <th>`happiness_average`</th>
-      <th>`happiness_standard_deviation`</th>
+      <th>word</th>
+      <th>happiness_rank</th>
+      <th>happiness_average</th>
+      <th>happiness_standard_deviation</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-      <td>`terrible`</td>
-      <td>`9902`</td>
-      <td>`2.84`</td>
-      <td>`1.8111`</td>
+      <td>"terrible"</td>
+      <td>9902</td>
+      <td>2.84</td>
+      <td>1.8111</td>
     </tr>
   </tfoot>
   <tbody>
     <tr>
-      <td>`thanks`</td>
-      <td>`245`</td>
-      <td>`7.40`</td>
-      <td>`1.5119`</td>
+      <td>"thanks"</td>
+      <td>245</td>
+      <td>7.40</td>
+      <td>1.5119</td>
     </tr>
     <tr>
-      <td>`nice`</td>
-      <td>`258`</td>
-      <td>`7.38`</td>
-      <td>`1.5104`</td>
+      <td>"nice"</td>
+      <td>258</td>
+      <td>7.38</td>
+      <td>1.5104</td>
     </tr>
     <tr>
-      <td>`helpful`</td>
-      <td>`364`</td>
-      <td>`7.24`</td>
-      <td>`1.2382`</td>
+      <td>"helpful"</td>
+      <td>364</td>
+      <td>7.24</td>
+      <td>1.2382</td>
     </tr>
     <tr>
-      <td>`weird`</td>
-      <td>`9001`</td>
-      <td>`4.20`</td>
-      <td>`1.3553`</td>
+      <td>"weird"</td>
+      <td>9001</td>
+      <td>4.20</td>
+      <td>1.3553</td>
     </tr>
   </tbody>
 </table>
@@ -270,68 +270,68 @@ After some feature manipulation, we should get a `pandas` dataframe that looks l
   <thead>
     <tr>
       <th></th>
-      <th>**Discount**</th>
-      <th>**Recommendation**</th>
-      <th>**No_Answer**</th>
-      <th>**Personalization**</th>
+      <th>Discount</th>
+      <th>Recommendation</th>
+      <th>No_Answer</th>
+      <th>Personalization</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>`0`</td>
-      <td>`1`</td>
-      <td>`0`</td>
-      <td>`0`</td>
-      <td>`0`</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>`1`</td>
-      <td>`1`</td>
-      <td>`1`</td>
-      <td>`0`</td>
-      <td>`0`</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>`2`</td>
-      <td>`1`</td>
-      <td>`0`</td>
-      <td>`1`</td>
-      <td>`0`</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>`3`</td>
-      <td>`1`</td>
-      <td>`0`</td>
-      <td>`0`</td>
-      <td>`1`</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>`4`</td>
-      <td>`1`</td>
-      <td>`1`</td>
-      <td>`1`</td>
-      <td>`0`</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>`5`</td>
-      <td>`1`</td>
-      <td>`0`</td>
-      <td>`1`</td>
-      <td>`1`</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>`6`</td>
-      <td>`1`</td>
-      <td>`1`</td>
-      <td>`1`</td>
-      <td>`1`</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
     </tr>
     <tr>
-      <td>**...**</td>
-      <td>**...**</td>
-      <td>**...**</td>
-      <td>**...**</td>
-      <td>**...**</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
     </tr>
   </tbody>
 </table>
