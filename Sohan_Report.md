@@ -47,7 +47,7 @@ def clean(words):
 ```
 In order to make our processing even more robust, we can calculate the frequency at which the customer mentions certain phrases. This analysis can be done using `nltk` as well, given that we initially parse through `words`, assigning values corresponding with level of relation to certain predefined topics.
 
- For instance, if within the conversation words related to cost are mentioned at a high rate, it may be advisable to promote discounts or lower fares. We can assign each word a `cost_score`, taken from a publicly available dataset, and use this to score the overall importance of this factor to the customer.
+ For instance, if within the conversation words related to cost are mentioned at a high rate, it may be advisable to promote discounts or lower fares. We can assign each word a `cost_score`, taken from some publicly available dataset, and use this to score the overall importance of this factor to the customer.
 
 ```python
 from nltk.probability import FreqDist
