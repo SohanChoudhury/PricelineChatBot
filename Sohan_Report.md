@@ -65,7 +65,7 @@ def cost_score(filtered_words, words):
     norm_freq = freq[word] / total_freq
     ave_cost_importance += cost_score * norm_freq
 
-    return ave_cost_importance
+  return ave_cost_importance
 ```
 
 From my understanding, the NLP engine has already been applied to the Priceline chatbot, such that it can handle various customer questions. In order to gather classification data, a word2vec model can be used to produce word embeddings. Word2vec can then use the skip-gram architecture to essentially predict the context of a user's input, and thereby their intent, from a given word. In practice, this gives us the following key benefit.
