@@ -40,8 +40,8 @@ def clean(words):
   filtered_words = []
 
   for word in words:
-    if word not in stopwords.words('english')
-    filtered_words.append(word)
+    if word not in stopwords.words('english'):
+    	filtered_words.append(word)
 
   return filtered_words
 ```
