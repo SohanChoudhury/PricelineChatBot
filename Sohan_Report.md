@@ -1,15 +1,15 @@
 
 # Priceline Chatbot Schema
 ### by Sohan Choudhury
-> Applicant for the role of [Machine Learning Intern](https://careers.priceline.com/jobsearch/job-details/summer-intern-machine-learning-engineer/oMN16fwq/1/), Summer 2018
+> As a student interested in machine learning and NLP, I wanted to do a case study in how such technologies are being leveraged in industry.
 
 ___
 
-This is a methodology for the creation of a customer service chatbot, specifically for implementation by [Priceline](https://www.priceline.com). Below I discuss my interest in this role, features for exploration, as well as an in depth explanation of relevant NLU and ML architectures.
+This is a methodology for the creation of a customer service chatbot, specifically for implementation by [Priceline](https://www.priceline.com). Below I discuss my interest in this technology, features for exploration, as well as an in depth explanation of relevant NLU and ML architectures.
 
 ## Motivations
 
-In order to initially spur my interest, as well as to demonstrate my commitment to this role, I created my own chatbot using Microsoft Azure's AI as a proof of concept. Although a preliminary tool, the bot was able to accurately determine whether or not the customer intended to book a hotel, car, flight, or cruise using Priceline. Below is a video demonstration.
+In order to initially spur my interest, I created my own chatbot using Microsoft Azure's AI as a proof of concept. Although a preliminary tool, the bot was able to accurately determine whether or not the customer intended to book a hotel, car, flight, or cruise using Priceline. Below is a video demonstration.
 
 <!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=JZ5uHs8UQAY
 " target="_blank"><img src="http://img.youtube.com/vi/JZ5uHs8UQAY/0.jpg"
@@ -336,7 +336,7 @@ After some feature manipulation, we should get a `pandas` dataframe that looks l
   </tbody>
 </table>
 
-Following this pattern, as none of the features are mutually exclusive, we will have a total of 16 such rows, spanning `0` - `15`.
+Following this pattern, we will have a total of 16 such rows, spanning `0` - `15`.
 
 Now, the aforementioned random forest classifier can be trained. Here, the two inputs will be the training input samples (from the above dataframe), and the target values. As we want to identify the features that best promote positive user sentiment above a certain threshold, our target values will be `True` or `False`, as explained above.
 
@@ -378,4 +378,4 @@ This concludes my take on the schematics for such a bot. Using NLU and ML, an in
 
 -----
 
-Thank you for your time and consideration.
+> Got any comments or feedback? [Email](mailto:sohanyo@gmail.com) me.
