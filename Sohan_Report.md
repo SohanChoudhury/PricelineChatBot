@@ -1,7 +1,7 @@
 
 # Priceline Chatbot Schema
 ### by Sohan Choudhury
-> As a student interested in machine learning and NLP, I wanted to do a case study in how such technologies are being leveraged in industry.
+> As a student interested in machine learning and NLP, I wanted to do a case study in how such technologies can be leveraged in industry to improve customer experience via chat bot agents.
 
 ___
 
